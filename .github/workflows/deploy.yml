@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-          path: ./vite-test/
+        working-directory: ./vite-test/
       - name: Install dependencies
         run: npm install
         working-directory: ./vite-test/
